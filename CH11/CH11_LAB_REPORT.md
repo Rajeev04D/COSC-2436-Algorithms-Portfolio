@@ -132,3 +132,20 @@ grid = knapsack(items, capacity)
 
 # Display the finished grid.
 display_grid(grid, items)
+```
+## Reflection Questions
+1. What did this lab teach you about dynamic programming?
+
+This lab helped me understand that dynamic programming is useful when a problem can be broken into smaller decisions. Instead of checking every possible combination from the beginning each time, the program stores previous results in a grid and builds on them. That made the knapsack problem easier to understand because I could see how each item and each capacity affected the final answer.
+2. Why is the knapsack problem a good example of optimization?
+
+The knapsack problem is a good example of optimization because the goal is not just to find any solution, but to find the best solution. The program has to choose items with the highest possible value without going over the weight limit. This showed me how algorithms can be used to make smart decisions when there are limits or constraints.
+3. What was the most difficult part of this lab?
+
+The most difficult part was understanding how the grid updates for each item and capacity. At first, it was confusing to see why the program compares including an item versus excluding it. After working through the table, it made more sense because each cell represents the best choice available at that point.
+4. How did the grid help you understand the solution?
+
+The grid made the process more visual because I could see the best item combinations changing as the weight capacity increased. Instead of only seeing the final answer, the table showed how the algorithm reached that answer step by step. This helped me understand that dynamic programming is based on building the final solution from smaller results.
+5. Where could this type of algorithm be used in real life?
+
+This type of algorithm could be used in situations where someone needs to choose the best combination of items under a limit. For example, it could help with packing a truck, choosing products within a budget, or selecting tasks when there is limited time. It is useful whenever there are multiple choices and a maximum capacity or restriction.
