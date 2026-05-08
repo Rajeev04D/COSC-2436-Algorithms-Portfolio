@@ -38,12 +38,6 @@ cd CH01
 python3 main.py
 ```
 
-On Windows, this may also work:
-
-```bash
-python main.py
-```
-
 ## Requirements
 
 - Python 3.10 or newer
